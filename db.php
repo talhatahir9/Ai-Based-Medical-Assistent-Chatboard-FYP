@@ -1,4 +1,15 @@
 <?php
+// Load environment variables from .env file
+if (file_exists(__DIR__ . '/.env')) {
+    $envVariables = parse_ini_file(__DIR__ . '/.env');
+    if ($envVariables) {
+        foreach ($envVariables as $key => $value) {
+            $_ENV[$key] = $value;
+            putenv("$key=$value");
+        }
+    }
+}
+
 $host = 'localhost';
 $dbname = 'ai_medical_ch';
 $username = 'root';
