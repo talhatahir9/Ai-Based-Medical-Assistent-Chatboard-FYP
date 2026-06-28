@@ -1,7 +1,7 @@
 # 🩺 Medical.AI | AI Medical Chatboard
 
 <p align="center">
-  <img src="project.png" alt="Medical.AI Project Screenshot" width="900">
+  <img src="Readme.png" alt="Medical.AI Project Screenshot" width="900">
 </p>
 
 <p align="center">
